@@ -5,6 +5,7 @@
   --secondary-color: #2e2f42;
   --bgs-master-color: #f4f4fd;
   --portfolio-btn-background-accent: #404bbf;
+  --border-color: #e7e9fc;
 }
 p,
 h1,
@@ -33,7 +34,7 @@ img {
 .list {
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  list-style: none;
 }
 .link {
   text-decoration: none;
@@ -45,6 +46,7 @@ img {
  color: #FFFFFF; WHITE
  color: #2E2F42; second
  #F4F4FD; bgs-color */
+/* border#e7e9fc; */
 
 /* portfolio-btn dicaration */
 /* portfolio-btn-background-accent: #404BBF;
@@ -60,7 +62,7 @@ body {
 
 /* header */
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-color);
   /* . */
 }
 .container-header {
@@ -315,7 +317,7 @@ body {
   /* CORNFLOWER */
   width: calc((100% - 48px) / 3);
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
 }
 
 /* section Team 4*/
@@ -453,7 +455,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   font-family: inherit;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -500,7 +502,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
   border-top: none;
 }
 
